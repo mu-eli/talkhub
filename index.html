@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="talkhub is an online English learning platform where everyone has the opportunity to express themselves. Lessons tailored to your personal needs"
+    />
+
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/favicon-apple.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sansita+Swashed:wght@300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js
+    "
+    ></script>
+
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script defer src="js/script.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+
+    <title>talkhub &mdash; Learning English simplified!</title>
+  </head>
+
+  <body>
+    <header class="header container">
+      <div class="logo">
+        <button class="btn-mobile--nav">
+          <ion-icon name="menu-outline" class="icon-mobile--nav"></ion-icon>
+          <ion-icon name="close-outline" class="icon-mobile--nav"></ion-icon>
+        </button>
+
+        <div class="header-logo">
+          <a href="index.html"
+            ><img src="img/header-logo.png" alt="talk hub logo in blue color"
+          /></a>
+        </div>
+      </div>
+
+      <nav class="main-nav" aria-label="Main Navigation">
+        <ul class="main-nav--list">
+          <li>
+            <a class="main-nav--link" href="index.html" data-page="homepage"
+              >homepage</a
+            >
+          </li>
+          <li>
+            <a class="main-nav--link" href="about.html" data-page="about"
+              >about us</a
+            >
+          </li>
+          <li>
+            <a class="main-nav--link" href="tutors.html" data-page="tutors"
+              >tutors</a
+            >
+          </li>
+          <li>
+            <a class="main-nav--link" href="packages.html" data-page="packages"
+              >packages</a
+            >
+          </li>
+          <li>
+            <a class="main-nav--link" href="contact.html" data-page="contact"
+              >contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div>
+        <button class="book-button" aria-label="booking a class">
+          book a class
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero-container container">
+          <div class="hero-text--box">
+            <div class="hero-imgs">
+              <img
+                src="img/rounded-img-1.png"
+                alt="A man waving in front of a laptop"
+                class="hero-img"
+              />
+              <img
+                src="img/rounded-img-2.jpg"
+                alt="A woman with headphones in front of a tablet smiling and waving"
+                class="hero-img overlap-img"
+              />
+            </div>
+
+            <p class="hero-text">Connect with native speakers</p>
+            <p class="primary-text">
+              Transform your English from textbook knowledge to real-life
+              communication.
+            </p>
+            <button class="talk-button">let's talk</button>
+          </div>
+
+          <div class="colors">
+            <div>
+              <div class="color"></div>
+              <div class="color-grey"></div>
+            </div>
+            <div class="color-lightblue"></div>
+            <div>
+              <div class="color-gray"></div>
+              <div class="color-blue"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <aside class="container">
+        <div class="courses">
+          <p>beginner</p>
+          <p>intermediate</p>
+          <p>advanced</p>
+          <p>IELTS / TOEFL</p>
+          <p>university prep year</p>
+          <p>speaking club</p>
+          <p>academic talks</p>
+        </div>
+      </aside>
+
+      <section class="focus-section">
+        <div class="focus-box">
+          <div class="focus-text--box">
+            <h2 class="focus-description--text">
+              Unlike traditional grammar-focused schools, we offer a practical,
+              immersive experience to help you speak English confidently.
+            </h2>
+            <p class="focus-text">
+              Getting started with talkhub is simple and easy!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-sign--up">
+        <p class="tertiary-heading">
+          Ready to start learning?<br />Sign up today!
+        </p>
+        <div class="container">
+          <div class="sign-up--cols">
+            <div class="sign-up--level">
+              <div class="level-text">
+                <p class="description-text">Find your English level.</p>
+                <p>Start with a quicklanguage assessment.</p>
+                <br />
+                <p>
+                  This helps us tailor thelearning experience to your needs.
+                </p>
+              </div>
+            </div>
+
+            <div class="sign-up--package">
+              <div class="package-text">
+                <p class="description-text">Choose a package.</p>
+                <p>Select a package that suits your learning goals.</p>
+                <br />
+                <p>We have options for everyone.</p>
+              </div>
+            </div>
+
+            <div class="sign-up--session">
+              <div class="session-text">
+                <p class="description-text">Book your session</p>
+                <p>Choose a session at a time that works for you.</p>
+                <br />
+                <p>We offer flexible scheduling to fit your busy life.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-discount">
+        <div class="discount container">
+          <div class="discount-offer">
+            <p class="offer-text">20% OFF</p>
+          </div>
+          <p class="offer-details">Don’t miss out—limited time offer!</p>
+          <p class="offer-info">
+            Sign up today and start with a special discount.
+          </p>
+        </div>
+        <div>
+          <button class="start-button center">let's start</button>
+        </div>
+      </section>
+
+      <section class="testimonial-container">
+        <div class="testimonial">
+          <div class="card">
+            <p class="tag">#STUDENTS</p>
+            <p class="profile-text">
+              The teacher encourages me to speak, which I really appreciate. And
+              I feel comfortable while speaking.
+            </p>
+            <div class="profile">
+              <div class="profile-img">
+                <img src="img/student-1.png" alt="Image of Selma" />
+              </div>
+              <div class="profile-details">
+                <p class="profile-name">Selma</p>
+                <p class="profile-level">Advanced</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <p class="tag">#STUDENTS</p>
+            <p class="profile-text">
+              Eliud alleviate my concerns about speaking English. He encouraged
+              me to speak comfortably. He left a good impression for taking
+              again his lesson.
+            </p>
+            <div class="profile">
+              <div class="profile-img">
+                <img src="img/student-2.png" alt="Image of Ahmet" />
+              </div>
+              <div>
+                <p class="profile-name">Ahmet</p>
+                <p class="profile-level">Beginner</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <p class="tag">#STUDENTS</p>
+            <p class="profile-text">
+              He is kind and helpful to all students. Besides being my teacher,
+              he became one of my friends. He taught me some tips that I had
+              never heard before.
+            </p>
+            <div class="profile">
+              <div class="profile-img">
+                <img src="img/student-3.png" alt="Image of Deniz" />
+              </div>
+              <div>
+                <p class="profile-name">Deniz</p>
+                <p class="profile-level">Intermediate</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="scroll-hint">← scroll →</div>
+      </section>
+
+      <section class="section-tutor">
+        <div class="tutors">
+          <div class="tutor-box">
+            <p class="tutor-subtext">Meet your native English tutor:</p>
+            <p class="tutor-name">Eliud</p>
+            <p class="tutor-intro">
+              “I’m here to make learning English enjoyable and stress-free with
+              a friendly, supportive, and patient approach.”
+            </p>
+
+            <p class="tutor-details">
+              He is dedicated to guiding you every step of the way. With a deep
+              understanding of the challenges faced by Turkish learners, Eliud
+              is here to help you build confidence and fluency in a relaxed and
+              engaging environment.
+            </p>
+          </div>
+          <div class="tutor-img--container">
+            <img
+              src="img/khai.png"
+              alt="Image of a teacher wearing a black turtleneck sweater"
+              class="tutor-img"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-section">
+      <div class="footer-container">
+        <div class="footer-logo">
+          <a href="index.html"
+            ><img
+              src="img/footer-logo.svg"
+              alt="image of the logo in white color"
+          /></a>
+        </div>
+
+        <nav class="footer-nav">
+          <ul class="footer-nav--list">
+            <li><a class="footer-nav--link" href="about.html">about</a></li>
+            <li><a class="footer-nav--link" href="tutors.html">tutors</a></li>
+            <li>
+              <a class="footer-nav--link" href="packages.html">packages</a>
+            </li>
+            <li>
+              <a class="footer-nav--link" href="contact.html">contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="footer-lan">
+          <p class="lan-en">ENG</p>
+          <p class="lan-tr">TR</p>
+        </div>
+
+        <div class="footer-cta">
+          <a href="tutors.html" class="btn-tutor">find a tutor</a>
+        </div>
+
+        <div class="socials">
+          <div class="footer-social--icons">
+            <a
+              class="footer-icons"
+              href="https://www.instagram.com/talkhubenglish/"
+              target="_blank"
+              aria-label="instagram logo"
+              ><ion-icon name="logo-instagram"></ion-icon
+            ></a>
+          </div>
+          <div class="footer-social--icons">
+            <a
+              class="footer-icons"
+              href="https://www.tiktok.com/@talkhubenglish"
+              target="_blank"
+              aria-label="tiktok logo"
+              ><ion-icon name="logo-tiktok"></ion-icon
+            ></a>
+          </div>
+        </div>
+
+        <div class="footer-contact">
+          <a
+            href="mailto:eliudmuwowo@gmail.com"
+            aria-label="Email Eliud Muwowo"
+            class="email-text"
+            >eliudmuwowo@gmail.com</a
+          >
+        </div>
+
+        <div class="footer-copyright">
+          <p class="copyright">&copy; <span class="year">2024</span> talkhub</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,671 @@
+/************************************/
+/* BELOW 1424px (Smaller Desktops) */
+/************************************/
+
+@media (max-width: 89em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .courses {
+    font-size: 1.8rem;
+    gap: 2.6rem;
+  }
+
+  .focus-box {
+    background-position: 75% bottom;
+  }
+
+  .sign-up--package {
+    background-size: 50%, 40%;
+  }
+
+  .testimonial-grid {
+    column-gap: 1.7rem;
+    row-gap: 1.8rem;
+  }
+
+  .contact-large--text {
+    font-size: 5.2rem;
+  }
+
+  .tutors {
+    height: 46rem;
+  }
+
+  .tutor-img {
+    height: 46rem;
+  }
+}
+
+/*************************************/
+/* BELOW 1025px (Landscape Tablets) */
+/*************************************/
+
+@media (max-width: 64em) {
+  html {
+    font-size: 50%;
+  }
+
+  .section-hero {
+    padding: 7.2rem 1.6rem;
+  }
+
+  .courses {
+    font-size: 1.8rem;
+    gap: 2rem;
+    padding: 0 1.6rem 3.2rem;
+  }
+
+  .focus-box {
+    background-position: 82% bottom;
+  }
+
+  .focus-description--text {
+    padding: 7.2rem 4rem 0;
+  }
+
+  .section-sign--up {
+    padding: 3.6rem 1.6rem 4.8rem;
+  }
+
+  .sign-up--package {
+    background-size: 50%, 40%;
+  }
+
+  .section-discount {
+    padding: 0 1.6rem;
+  }
+
+  .section-tutor {
+    padding: 7.2rem 1.6rem 0;
+  }
+
+  .tutors {
+    height: 46rem;
+  }
+
+  .contact-text {
+    font-size: 1.8rem;
+  }
+
+  .contact-large--text {
+    font-size: 4rem;
+  }
+
+  .tutors-section {
+    padding: 0 1.6rem;
+  }
+}
+
+/*************************************/
+/* BELOW 897px (Tablets) */
+/*************************************/
+
+@media (max-width: 48em) {
+  .btn-mobile--nav {
+    display: inline-block;
+    z-index: 9999;
+  }
+
+  .main-nav {
+    background-color: #0d44d1;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(-100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    z-index: 1;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile--nav[name="close-outline"] {
+    display: block;
+    color: #fff;
+  }
+
+  .nav-open .icon-mobile--nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .main-nav--list {
+    flex-direction: column;
+    gap: 3.2rem;
+    font-size: 3.2rem;
+  }
+
+  .main-nav--link:link,
+  .main-nav--link:visited {
+    color: #fff;
+  }
+
+  .header {
+    padding: 4.4rem 1.6rem;
+  }
+
+  .section-hero {
+    padding: 0 1.6rem 4.8rem;
+  }
+
+  .hero-imgs {
+    margin: 0;
+  }
+
+  .hero-text--box {
+    grid-column: 1 / -1;
+  }
+
+  .courses {
+    text-wrap: nowrap;
+    font-size: 1.8rem;
+    gap: 1.8rem;
+    overflow: auto;
+    margin: 0 0 4.8rem;
+  }
+
+  .colors {
+    display: none;
+  }
+
+  .aside-border {
+    border-bottom: none;
+  }
+
+  .focus-text--box {
+    width: 61.6rem;
+  }
+
+  .focus-description-text {
+    padding: 7.2rem 1.6rem 0;
+  }
+
+  .focus-text {
+    padding: 5.4rem 1.6rem 0;
+  }
+
+  .focus-box {
+    background-size: 25%;
+    background-position: 91% bottom;
+    height: 50rem;
+  }
+  .sign-up--level,
+  .sign-up--package,
+  .sign-up--session {
+    width: 30rem;
+  }
+
+  .sign-up--cols {
+    justify-content: center;
+    gap: 1.2rem;
+  }
+
+  .level-text {
+    padding: 12.6rem 2.4rem 0;
+  }
+
+  .sign-up--level {
+    background-size: 70%;
+  }
+  .sign-up--package {
+    background-size: 50%, 40%;
+  }
+  .sign-up--session {
+    background-size: 70%;
+  }
+
+  .offer-details {
+    font-size: 3.2rem;
+  }
+
+  .offer-info {
+    font-size: 1.8rem;
+  }
+
+  .testimonial-container {
+    padding: 0 1.6rem;
+  }
+
+  .testimonial {
+    overflow: scroll;
+  }
+
+  .card {
+    flex-shrink: 0;
+  }
+
+  .section-tutor {
+    padding: 2.4rem 1.6rem 0;
+  }
+
+  .tutors {
+    grid-template-columns: 1.7fr 1.3fr;
+    width: 60.8rem;
+    height: 33.3rem;
+    column-gap: 0.6rem;
+  }
+
+  .tutor-subtext {
+    padding-top: 2rem;
+  }
+
+  .tutor-intro {
+    padding-bottom: 2rem;
+  }
+
+  .tutor-intro,
+  .tutor-name {
+    font-size: 2rem;
+  }
+  .tutor-subtext,
+  .tutor-details {
+    font-size: 1.6rem;
+    line-height: 1.4;
+  }
+
+  .tutor-img {
+    max-width: 90%;
+    height: 33.3rem;
+    background-position: 110% 18%;
+    background-size: 10rem;
+  }
+
+  .footer-section {
+    padding: 4rem 1.6rem;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr 0.5fr 0.5fr 1fr;
+    column-gap: 5.8rem;
+    grid-template-rows: none;
+    align-items: center;
+  }
+
+  .socials {
+    grid-column: auto;
+  }
+
+  .footer-nav,
+  .footer-contact,
+  .footer-cta {
+    display: none;
+  }
+
+  .footer-copyright {
+    align-self: center;
+  }
+
+  .tutor-container {
+    grid-template-columns: 1fr;
+    row-gap: 4rem;
+  }
+
+  .tutor-cards {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
+
+  .cards {
+    margin: 2rem;
+  }
+
+  .tutor-profile {
+    padding: 0 2rem;
+  }
+
+  .tutor-hero-text p {
+    display: none;
+  }
+
+  .tutor-hero--img img {
+    height: 50vh;
+  }
+
+  .about-section--text {
+    padding: 0 1.6rem;
+  }
+
+  .what-will-you-learn {
+    padding: 7.2rem 1.6rem;
+  }
+
+  .learn-container {
+    gap: 1.2rem;
+  }
+
+  .levels-section {
+    padding: 0 1.6rem 7.2rem;
+  }
+
+  .levels-container {
+    column-gap: 1.2rem;
+  }
+
+  .why-talkhub--section {
+    padding: 0 1.6rem 7.2rem;
+  }
+
+  .why-talkhub--container {
+    column-gap: 0.8rem;
+  }
+
+  .pricing-section {
+    padding: 0 1.6rem;
+  }
+  .pricing-container {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 7.2rem;
+  }
+
+  .prof-plan::after {
+    top: -6%;
+  }
+
+  .pricing-box:last-child {
+    padding: 0 3rem 0 0;
+  }
+
+  .pricing-box:last-child {
+    border-right: 0.2rem solid #ced4da;
+  }
+
+  .text-centered {
+    width: 90%;
+  }
+
+  .contact-img {
+    height: 50vh;
+    object-fit: cover;
+    padding: 0;
+  }
+}
+
+/*************************************/
+/* BELOW 481px (Phones) */
+/*************************************/
+
+@media (max-width: 30em) {
+  .book-button {
+    font-size: 1.2rem;
+    width: 13.4rem;
+    padding: 1.2rem 1.6rem;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-img {
+    width: 6.4rem;
+    height: 6.4rem;
+  }
+
+  .hero-imgs {
+    margin-bottom: 0;
+  }
+
+  .overlap-img {
+    position: absolute;
+    top: 0;
+    left: 9%;
+  }
+
+  .primary-text {
+    font-size: 3rem;
+  }
+
+  .colors {
+    display: none;
+  }
+
+  .courses {
+    display: none;
+  }
+
+  .focus-text--box {
+    width: 100%;
+  }
+
+  .focus-description--text {
+    font-size: 2.8rem;
+    padding: 7.2rem 1.6rem 0;
+    line-height: 1.6;
+  }
+
+  .focus-text {
+    font-size: 1.8rem;
+    padding: 4.2rem 1.6rem 0;
+  }
+
+  .focus-box {
+    background-position: 85% bottom;
+    height: 45rem;
+  }
+
+  .section-sign--up {
+    padding: 3.6rem 1.6rem;
+  }
+
+  .section-sign--up .tertiary-heading {
+    font-size: 3.2rem;
+  }
+
+  .level-text {
+    padding: 19.6rem 7rem 0;
+  }
+  .package-text,
+  .session-text {
+    padding: 4.8rem 7rem 0;
+  }
+
+  .description-text {
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+
+  .sign-up--level,
+  .sign-up--package,
+  .sign-up--session {
+    width: 36.5rem;
+  }
+
+  .sign-up--cols {
+    flex-direction: column;
+    align-items: center;
+    gap: 2.8rem;
+  }
+
+  .discount {
+    width: 100%;
+  }
+
+  .offer-text {
+    font-size: 2.3rem;
+  }
+
+  .offer-details {
+    font-size: 2.4rem;
+  }
+
+  .offer-info {
+    font-size: 1.4rem;
+  }
+
+  .testimonial {
+    width: 100%;
+    gap: 3.2rem;
+  }
+
+  .testimonial-container {
+    padding: 0 1.6rem;
+  }
+
+  .scroll-hint {
+    display: block;
+  }
+
+  .card {
+    width: 36.6rem;
+  }
+
+  .section-tutor {
+    padding: 0 1.6rem;
+    margin: 0;
+  }
+
+  .tutors {
+    grid-template-columns: 1fr;
+    height: 80.6rem;
+    width: 36.5rem;
+  }
+
+  .tutor-intro {
+    font-size: 2rem;
+    line-height: 1.3;
+  }
+
+  .tutor-details {
+    font-size: 1.6rem;
+    line-height: 1.3;
+  }
+
+  .tutor-subtext {
+    padding-top: 4.8rem;
+  }
+
+  .tutor-img {
+    height: 100%;
+    background-position: 98% 18%;
+  }
+
+  .footer-container {
+    column-gap: 3rem;
+  }
+
+  .lan-en,
+  .lan-tr,
+  .copyright {
+    font-size: 1.2rem;
+  }
+
+  .socials {
+    gap: 2rem;
+  }
+
+  .contact-text,
+  .contact-large--text,
+  .btn-more {
+    display: none;
+  }
+
+  .about-img {
+    margin: 0;
+  }
+
+  .about-heading {
+    padding: 4.8rem 1.6rem 2rem;
+  }
+
+  .about-description {
+    padding: 0 1.6rem;
+  }
+
+  .about-subtext {
+    padding: 0 1.6rem 2rem;
+  }
+
+  .tutor-section--heading {
+    color: #fff;
+    font-size: 2.8rem;
+  }
+
+  .pricing-section {
+    margin: 3.2rem auto;
+  }
+
+  .pricing-box {
+    padding: 0;
+    border-right: none;
+  }
+
+  .pricing-container {
+    grid-template-columns: 1fr;
+    row-gap: 6.6rem;
+  }
+
+  .prof-plan::after {
+    top: -4%;
+  }
+
+  .listing-info {
+    font-size: 1.6rem;
+  }
+
+  .listing-text {
+    font-size: 2rem;
+  }
+
+  .learn-text {
+    line-height: 1.5;
+  }
+
+  .learn-main--heading {
+    font-size: 3rem;
+  }
+
+  .learn-container {
+    grid-template-columns: repeat(4, minmax(17rem, 1fr));
+    overflow-x: scroll;
+  }
+
+  .levels-container {
+    grid-template-columns: repeat(3, minmax(20rem, 1fr));
+    overflow-x: scroll;
+    padding: 0 0 2.4rem;
+  }
+
+  .why-talkhub--container {
+    grid-template-columns: repeat(4, minmax(14rem, 1fr));
+    overflow-x: scroll;
+    padding: 0 0 2.4rem;
+  }
+
+  .why-us-headings {
+    padding: 0 1.6rem 1.6rem;
+  }
+
+  .subtext {
+    padding-bottom: 3rem;
+  }
+
+  .contact-button {
+    padding: 0.8rem 0;
+  }
+
+  .contacts {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .contact-text {
+    display: none;
+  }
+
+  .form-element {
+    grid-column: span 2;
+  }
+}
