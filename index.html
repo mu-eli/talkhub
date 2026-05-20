@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -38,7 +38,7 @@
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
 
-    <script defer src="js/script.js"></script>
+    <script defer src="script.js"></script>
 
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="queries.css" />
@@ -92,9 +92,13 @@
       </nav>
 
       <div>
-        <button class="book-button" aria-label="booking a class">
+        <a
+          href="packages.html"
+          class="book-button"
+          aria-label="booking a class"
+        >
           book a class
-        </button>
+        </a>
       </div>
     </header>
 
@@ -102,7 +106,7 @@
       <section class="section-hero">
         <div class="hero-container container">
           <div class="hero-text--box">
-            <div class="hero-imgs">
+            <div class="hero-img--box">
               <img
                 src="img/rounded-img-1.png"
                 alt="A man waving in front of a laptop"
@@ -137,7 +141,7 @@
         </div>
       </section>
 
-      <aside class="container">
+      <div class="courses-container container">
         <div class="courses">
           <p>beginner</p>
           <p>intermediate</p>
@@ -147,7 +151,7 @@
           <p>speaking club</p>
           <p>academic talks</p>
         </div>
-      </aside>
+      </div>
 
       <section class="focus-section">
         <div class="focus-box">
@@ -201,11 +205,9 @@
         </div>
       </section>
 
-      <section class="section-discount">
+      <div class="section-discount">
         <div class="discount container">
-          <div class="discount-offer">
-            <p class="offer-text">20% OFF</p>
-          </div>
+          <p class="offer-text">20% OFF</p>
           <p class="offer-details">Don’t miss out—limited time offer!</p>
           <p class="offer-info">
             Sign up today and start with a special discount.
@@ -214,16 +216,19 @@
         <div>
           <button class="start-button center">let's start</button>
         </div>
-      </section>
+      </div>
 
       <section class="testimonial-container">
+        <h2 class="testimonial-header">Hear from our learners</h2>
         <div class="testimonial">
           <div class="card">
-            <p class="tag">#STUDENTS</p>
-            <p class="profile-text">
-              The teacher encourages me to speak, which I really appreciate. And
-              I feel comfortable while speaking.
-            </p>
+            <div class="card-textbox">
+              <p class="tag">#STUDENTS</p>
+              <p class="profile-text">
+                The teacher encourages me to speak, which I really appreciate.
+                And I feel comfortable while speaking.
+              </p>
+            </div>
             <div class="profile">
               <div class="profile-img">
                 <img src="img/student-1.png" alt="Image of Selma" />
@@ -236,12 +241,14 @@
           </div>
 
           <div class="card">
-            <p class="tag">#STUDENTS</p>
-            <p class="profile-text">
-              Eliud alleviate my concerns about speaking English. He encouraged
-              me to speak comfortably. He left a good impression for taking
-              again his lesson.
-            </p>
+            <div class="card-textbox">
+              <p class="tag">#STUDENTS</p>
+              <p class="profile-text">
+                Eliud alleviate my concerns about speaking English. He
+                encouraged me to speak comfortably. He left a good impression
+                for taking again his lesson.
+              </p>
+            </div>
             <div class="profile">
               <div class="profile-img">
                 <img src="img/student-2.png" alt="Image of Ahmet" />
@@ -254,12 +261,14 @@
           </div>
 
           <div class="card">
-            <p class="tag">#STUDENTS</p>
-            <p class="profile-text">
-              He is kind and helpful to all students. Besides being my teacher,
-              he became one of my friends. He taught me some tips that I had
-              never heard before.
-            </p>
+            <div class="card-textbox">
+              <p class="tag">#STUDENTS</p>
+              <p class="profile-text">
+                He is kind and helpful to all students. Besides being my
+                teacher, he became one of my friends. He taught me some tips
+                that I had never heard before.
+              </p>
+            </div>
             <div class="profile">
               <div class="profile-img">
                 <img src="img/student-3.png" alt="Image of Deniz" />
@@ -271,7 +280,6 @@
             </div>
           </div>
         </div>
-        <div class="scroll-hint">← scroll →</div>
       </section>
 
       <section class="section-tutor">
@@ -292,11 +300,8 @@
             </p>
           </div>
           <div class="tutor-img--container">
-            <img
-              src="img/khai.png"
-              alt="Image of a teacher wearing a black turtleneck sweater"
-              class="tutor-img"
-            />
+            <img src="img/img-1.jpg" alt="" class="tutor-section--img" />
+            <img src="img/logo.svg" alt="" class="tutor-logo" />
           </div>
         </div>
       </section>
