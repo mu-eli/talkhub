@@ -7,29 +7,165 @@
     max-width: 144rem;
     margin-left: auto;
     margin-left: auto;
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+  }
+
+  .header {
+  }
+
+  .section-discount,
+  .section-tutor {
+    padding: 0 3.2rem;
+  }
+
+  .focus-section,
+  .section-discount {
+    margin-bottom: 9.6rem;
+  }
+
+  .main-nav--link:link,
+  .main-nav--link:visited,
+  .footer-nav--link {
+    font-size: 2.4rem;
+  }
+
+  .book-button,
+  .btn-tutor,
+  .btn-trial,
+  .btn-plan,
+  .btn-submit {
+    font-size: 2rem;
+  }
+
+  .hero-text,
+  .offer-info,
+  .contact-text,
+  .why-us--heading {
+    font-size: 2.4rem;
+  }
+
+  .primary-text {
+    font-size: 4.4rem;
   }
 
   .courses {
     justify-content: space-between;
+    font-size: 2.4rem;
+  }
+
+  .focus-description--text,
+  .tertiary-heading,
+  .offer-details,
+  .testimonial-header {
+    font-size: 4rem;
+  }
+
+  .focus-text {
+    font-size: 2.6rem;
+  }
+
+  .testimonial-container,
+  .footer-container {
+    max-width: 144rem;
+    padding: 0 3.2rem;
+  }
+
+  .offer-text,
+  .start-button {
+    font-size: 2.8rem;
+  }
+
+  .text-small {
     font-size: 2rem;
   }
 
-  .testimonial-container {
-    max-width: 144rem;
+  .description-text {
+    font-size: 3.2rem;
+  }
+
+  .profile-text {
+    font-size: 2.4rem;
+  }
+
+  .profile-name {
+    font-size: 2rem;
+  }
+
+  .profile-level,
+  .form-label {
+    font-size: 1.6rem;
+  }
+
+  .form-textarea,
+  .form-input {
+    font-size: 1.4rem;
+  }
+
+  .tutor-subtext,
+  .about-us--description {
+    font-size: 2rem;
+  }
+
+  .tutor-name {
+    font-size: 3rem;
+  }
+
+  .tutor-intro,
+  .tutor-details,
+  .about-us--heading {
+    font-size: 2.8rem;
   }
 
   .tutors,
   .focus-text--box {
     max-width: 144rem;
+    width: 80%;
   }
 
-  .contact-text {
-    font-size: 2.4rem;
+  .why-talkhub--section,
+  .levels-section {
+    padding-bottom: 9.6rem;
+  }
+
+  .about-section--text {
+    margin-bottom: 9.6rem;
+  }
+
+  .learn-container {
+    padding: 9.6rem 3.2rem;
   }
 
   .btn-more {
     font-size: 2rem;
     padding: 1.6rem 3.2rem;
+  }
+
+  .email-text,
+  .listing-info {
+    font-size: 1.8rem;
+  }
+
+  .copyright,
+  .tutor-inform-title {
+    font-size: 1.6rem;
+  }
+
+  .tutor-container {
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .tutor-intro--text,
+  .lang-tutored,
+  .tutor-inform-details span,
+  .listing-text,
+  .learn-subtext--descript,
+  .learn-subtext,
+  .learn-text,
+  .levels-card--descript,
+  .why-us--text,
+  .form-text {
+    font-size: 2rem;
   }
 }
 

@@ -384,7 +384,6 @@ body {
 }
 
 .description-text {
-  font-size: 3.6rem;
   color: #242639;
   font-size: 2rem;
   padding: 0 0 1.6rem;
@@ -601,8 +600,7 @@ body {
 .footer-container {
   display: grid;
   grid-template-columns: 1.5fr 0.5fr 0.5fr max-content;
-  grid-template-rows: 12rem 5rem;
-  max-width: 94.4rem;
+  max-width: 94.7rem;
   column-gap: 6.4rem;
   row-gap: 9.6rem;
   margin: 0 auto;
@@ -740,7 +738,7 @@ body {
   object-fit: cover;
   display: block;
   width: 100%;
-  /* height: 88vh; */
+  height: 88vh;
 }
 
 .about-section--text {
