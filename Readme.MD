@@ -2,7 +2,7 @@
 
 > TalkHub, an online English learning platform connecting ESL learners with native tutors for 1-on-1 lessons.
 
-🌐 **Live site:** [talkhub-eng.netlify.app](https://talkhub-eng.netlify.app)
+**Live site:** [talkhub-eng.netlify.app](https://talkhub-eng.netlify.app)
 
 ---
 
@@ -14,11 +14,11 @@ TalkHub is a frontend website built for an online English tutoring platform base
 
 ## Pages
 
-| `index.html` | Homepage — hero section, how it works, student testimonials, tutor intro |
-| `about.html` | Mission, vision, and why TalkHub |
-| `tutors.html` | Meet the tutors |
-| `packages.html` | Pricing plans and what learners will study |
-| `contact.html` | Contact form with PHP backend handler |
+`index.html` Homepage — hero section, how it works, student testimonials, tutor intro
+`about.html` Mission, vision, and why TalkHub
+`tutors.html` Meet the tutors
+`packages.html` Pricing plans and what learners will study\n
+`contact.html` Contact form with PHP backend handler
 
 ---
 
@@ -45,29 +45,6 @@ TalkHub is a frontend website built for an online English tutoring platform base
   - Auto-reply email to the visitor
   - Success/error status message after submission
 - PWA-ready (`manifest.webmanifest`, favicon, apple touch icon)
-
----
-
-## Contact Form Setup
-
-The contact form uses a separate PHP file to keep HTML and backend logic apart.
-
-1. Upload all files to a PHP-enabled host (e.g. cPanel shared hosting)
-2. Open `contact.php` and update the configuration at the top:
-
-```php
-$to          = "your@email.com";   // receiving email
-$site_name   = "TalkHub";
-$from_domain = "yourdomain.com";   // your domain
-```
-
-3. The form in `contact.html` posts to `contact.php`, which:
-   - Validates and sanitises all fields
-   - Sends the message to your inbox with `Reply-To` set to the visitor
-   - Sends an auto-reply to the visitor
-   - Redirects back to `contact.html?status=success` or `?status=error`
-
-> **Note:** `mail()` requires a configured mail agent on the server. For more reliable delivery, consider replacing it with [PHPMailer + SMTP](https://github.com/PHPMailer/PHPMailer).
 
 ---
 
