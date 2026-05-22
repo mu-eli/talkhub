@@ -14,11 +14,20 @@ TalkHub is a frontend website built for an online English tutoring platform base
 
 ## Pages
 
-`index.html` Homepage — hero section, how it works, student testimonials, tutor intro
-`about.html` Mission, vision, and why TalkHub
-`tutors.html` Meet the tutors
-`packages.html` Pricing plans and what learners will study\n
-`contact.html` Contact form with PHP backend handler
+**`index.html`**
+Homepage — hero section, how it works, student testimonials, and tutor intro.
+
+**`about.html`**
+Mission, vision, and why TalkHub.
+
+**`tutors.html`**
+Meet the tutors.
+
+**`packages.html`**
+Pricing plans and what learners will study.
+
+**`contact.html`**
+Contact form with PHP backend handler.
 
 ---
 
