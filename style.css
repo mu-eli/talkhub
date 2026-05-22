@@ -1253,10 +1253,16 @@ body {
 /* CONTACT PAGE */
 /***************************/
 
-.contact-img {
+.contact-img,
+.contact-img--1 {
   display: block;
   object-fit: cover;
   width: 100%;
+}
+
+.img-container .contact-img--1 {
+  height: 80vh;
+  object-position: center 40%;
 }
 
 .form {
@@ -1362,4 +1368,22 @@ body {
   border-radius: 10rem;
   margin-top: 3.2rem;
   transition: all 0.3s ease;
+}
+
+.form-alert {
+  padding: 0.85rem 1.2rem;
+  border-radius: 0.8rem;
+  margin-top: 2.4rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.form-alert--success {
+  background: #d1fae5;
+  color: #065f46;
+  border: 1px solid #6ee7b7;
+}
+.form-alert--error {
+  background: #fee2e2;
+  color: #991b1b;
+  border: 1px solid #fca5a5;
 }

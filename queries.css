@@ -440,6 +440,12 @@
     color: #fff;
   }
 
+  .main-nav--link.active {
+    color: #d7d7d7;
+    font-weight: 700;
+    border-bottom: 2px solid #d7d7d7;
+  }
+
   .header {
     padding: 0.8rem 1.6rem;
   }
@@ -762,16 +768,21 @@
     padding: 0;
   }
 
+  .img-container .contact-img--1 {
+    height: auto;
+  }
+
   .contact-text {
-    display: none;
+    font-size: 2rem;
   }
 
   .contact-large--text {
-    font-size: 2rem;
+    font-size: 3.2rem;
   }
 
   .btn-more {
     margin-top: 2.4rem;
+    font-size: 1.6rem;
   }
 }
 

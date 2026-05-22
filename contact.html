@@ -37,7 +37,7 @@
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
 
-    <script defer src="js/script.js"></script>
+    <script defer src="script.js"></script>
 
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="queries.css" />
@@ -82,7 +82,7 @@
 
     <main>
       <section class="contact-section">
-        <div>
+        <div class="contact-hero--img">
           <img
             src="img/contact-img-2.png"
             alt=" A boy using a computer"
@@ -102,7 +102,7 @@
               >eliud@eliud-muwowo.com</a
             >
           </p>
-          <form action="#" method="POST">
+          <form action="contact.php" method="POST">
             <div class="form-container">
               <div class="form-element">
                 <label for="first-name" class="form-label"
@@ -156,19 +156,20 @@
                   class="form-textarea"
                   placeholder="Your message"
                   rows="5"
+                  required
                 ></textarea>
               </div>
             </div>
-
             <button type="submit" class="btn-submit">submit</button>
           </form>
+          <div id="form-status" role="alert" aria-live="polite"></div>
         </div>
 
         <div class="img-container">
           <img
             src="img/contact-img.jpg"
             alt="A man using a macbook"
-            class="contact-img"
+            class="contact-img--1"
           />
           <div class="text-centered">
             <p class="contact-text">
